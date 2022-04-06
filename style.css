@@ -96,8 +96,7 @@ h2 {
 }
 
 p {
-    margin: 2% 0;
-    padding: 2% 5%;
+    padding: 1% 5%;
     line-height: 1.5rem;
     color: #343A40;
     font-size: min(max(1rem, 2vw), 20px);
