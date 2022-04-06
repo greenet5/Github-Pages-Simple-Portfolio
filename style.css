@@ -1,3 +1,11 @@
+html { 
+    background: url(Assets/Full\ Res-15.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 * {
     text-align: center;
 }
@@ -8,25 +16,15 @@ body {
     overflow: hidden;
 }
 
-.bg {
-    width: 110vw;
-    min-height: 125vh;
-    min-width: 100vw;
-    position: fixed;
-    bottom: -22%;
-    left: -2%;
-    right: 0;
-}
-
 .box {
     background-color: #f8f9faea;
     margin: auto;
     z-index: 10;
     border-radius: 3px;
     box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.5);
-    min-width: 35%;
+    min-width: 300px;
+    width: 50vw;
     overflow:auto;
-    
 }
 
 #intro {
@@ -80,7 +78,7 @@ a {
 
 h1 {
     font-family: Merriweather;
-    font-size: 3.5rem;
+    font-size: 2.25vw;
     color: #343A40;
     margin: 20px 0 0 0;
     padding: 0;
@@ -88,7 +86,8 @@ h1 {
 
 h2 {
     font-family: Merriweather;
-    font-size: 2rem;
+    font-size: 1.15vw;
+    min-width: 200px;
     color: #343A40;
     margin: 10px 0 0 0;
     padding: 0;
@@ -103,5 +102,5 @@ p {
 
 h5 {
     font-family: Merriweather;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
